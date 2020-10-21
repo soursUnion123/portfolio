@@ -1,0 +1,31 @@
+.profile-wrapper {
+    width: 1076px;
+    height: 161px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0 auto;
+}
+.author-profile {
+    display: inline-block;
+}
+.author-profile h1{
+    color: #40afe2;
+    font-size: 32px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.author-profile p{
+    color: #4a4a4a;
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 38px;
+}
+.icon {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    float: right;
+    margin: 50px 20px 0px 0px;
+}
+.border-mark {
+    border-bottom: 2px solid #f0f0f0;
+}
