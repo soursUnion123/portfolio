@@ -4,6 +4,9 @@
         <meta charset="utf-8">
         <title>Isaka Yusuke</title> 
         <link rel="stylesheet" href="stylesheet.css">
+        <link rel="stylesheet" href="github-calendar.css" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fetch/0.10.1/fetch.min.js"></script>
+        <script src="github-calendar.min.js"></script>
     </head>
     <body>
         <header>
@@ -21,9 +24,20 @@
                 <div class="icon email">
                     <a href="#"><img src="./img/email.svg"></a>
                 </div>
-                <div class="border-mark"></div>
+                <div class="profile-border"></div>
             </div>
-
         </header>
+
+        <div class="output-wrapper">
+            <div class="output-title">
+                <h2>Recent Outputs</h2>
+            </div>
+            <div class="calendar">Loading the data...</div>
+            <script>GitHubCalendar(".calendar", "soursUnion123");</script>
+            <div class="output-border"></div>
+        </div>
+
+        <div class="applications-wrapper"></div>
+        
     </body>
 </html>
